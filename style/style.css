@@ -226,7 +226,7 @@ section{
     :root{
         --big-font: 5.5rem;
         --p-font: 1rem;
-        transition: .2s ;
+        transition: 0 ;
     }
 }
 
@@ -237,14 +237,13 @@ section{
     :root{
         --big-font: 5rem;
         --p-font: 1rem;
-        transition: .2s ;
+        transition: 0 ;
     }
 }
 
 @media (max-width: 1020px){
     .share{
         left: 15%;
-        transition: .2s;
     }
     section{
         padding: 70px 4%;
