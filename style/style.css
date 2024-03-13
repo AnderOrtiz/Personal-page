@@ -339,9 +339,6 @@ section{
     .navbar.open{
         left: 0;
     }
-}
-
-@media (max-width: 850px) {
     .image-container img:nth-child(3) {
         display: none;
     }
@@ -360,6 +357,11 @@ section{
     .btn{
         padding: 9px 28px;
     }
+    .image-container img:nth-child(2) {
+        display: none;}
+        .image-container img {
+            width: 90%; /* Ancho del 100% para las imágenes restantes */
+        }
 }
 
 .home-img img{
