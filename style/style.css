@@ -274,25 +274,16 @@ section{
 
 @media (max-width: 850px){
     .navbar{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        padding: 40px 50px;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 100%;
+
         display: flex;
-        flex-direction: column;
         background: #2d2d2d;
         transition: all 0.4s ease-in-out;
     }
     .navbar a{
         display: block;
         color: #c3c3c3;
-        padding: 0px;
-        margin: 0 0 40px 0;
-        font-size: 2rem;
+        margin: 0  20px ;
+        font-size: 1rem;
         font-weight: 400;
     }
     .navbar.open{
